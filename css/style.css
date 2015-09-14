@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+#toolbar {
+
+}
+label {
+  color: #555;
+  font-size: 20px;
+  margin-right: 15px;
+}
+input {
+  border: none;
+  border-bottom: 1px #888 solid;
+  color: #999;
+  font-size: 20px;
+  margin: 0 1px;
+  padding: 2px 4px;
+}
+input[name=url] {
+  width: 500px;
+}
+input[name=from], input[name=to], input[name=time] {
+  text-align: right;
+  width: 70px;
+}
+
+a, input[type=submit] {
+  background: #888;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+iframe {
+  border: 1px solid black;
+  height: 100%;
+  position: relative;
+  margin: 0 0 0 20px;
+  visibility: hidden;
+  z-index: 0;
+}
+h3{
+  color: #999;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 0;
+  text-align: left;
+  margin: 20px 0 0 20px;
+}
